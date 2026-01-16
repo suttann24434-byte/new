@@ -341,6 +341,7 @@ end
 RunService.RenderStepped:Connect(function(dt)
 	if not aiming then return end
 
+	-- FIX 1: AUTO UNLOCK JIKA KAMERA DITARIK
 	if targetPart then
 		local camDir = Camera.CFrame.LookVector
 		local targetDir = (targetPart.Position - Camera.CFrame.Position).Unit
