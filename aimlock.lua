@@ -107,12 +107,12 @@ title.Size = UDim2.new(1,-50,0,26)
 title.TextXAlignment = Enum.TextXAlignment.Left
 
 local setBtn = Instance.new("TextButton", main)
-setBtn.Text = "-"
+setBtn.Text = "⚙"
 setBtn.Font = Enum.Font.GothamBold
 setBtn.TextSize = 18
-setBtn.Size = UDim2.new(0,24,0,24)
-setBtn.Position = UDim2.new(1,-30,0,8)
-setBtn.BackgroundColor3 = Color3.fromRGB(40,40,40)
+setBtn.Size = UDim2.new(0,34,0,34)
+setBtn.Position = UDim2.new(1,-42,0,6)
+setBtn.BackgroundColor3 = Color3.fromRGB(45,45,45)
 Instance.new("UICorner",setBtn).CornerRadius = UDim.new(1,0)
 
 local aimBtn = Instance.new("TextButton", main)
@@ -133,11 +133,11 @@ Instance.new("UICorner",dot).CornerRadius = UDim.new(1,0)
 
 -- ================= MINI AIM =================
 local mini = Instance.new("TextButton", SafeFrame)
-mini.Size = UDim2.new(0,42,0,42)
+mini.Size = UDim2.new(0,52,0,52)
 mini.Position = UDim2.new(0.88,0,0.55,0)
 mini.Text = "AIM"
 mini.Font = Enum.Font.GothamBold
-mini.TextSize = 14
+mini.TextSize = 16
 mini.TextColor3 = Color3.new(1,1,1)
 mini.BackgroundColor3 = Color3.fromRGB(150,0,0)
 mini.Active = true
