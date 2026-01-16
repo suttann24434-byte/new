@@ -1,9 +1,3 @@
--- =========================================================
--- UNIVERSAL AIMLOCK CONTROLLER (FINAL + FIX 1 SAFU)
--- UI FULL | STICKY LOCK | SMART VEHICLE PRIORITY | NO ESP
--- AUTO UNLOCK JIKA KAMERA DITARIK
--- =========================================================
-
 -- ================= SERVICES =================
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
